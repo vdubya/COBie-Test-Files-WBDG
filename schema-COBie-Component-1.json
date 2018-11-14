@@ -105,5 +105,5 @@
       }
     }
   ],
-  "missingValues":["","n/a","N/A"]
+  "missingValues":["","n/a","N/A","-"]
 }
