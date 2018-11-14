@@ -3,5 +3,9 @@ files:
     sheet: 7
     sheet: 8
 
+  - source: 2013-03-28-Clinic-Handover-v13-test-dups.xlsx
+    sheet: 7
+    sheet: 8
+
 settings:
     row_limit: 7000
