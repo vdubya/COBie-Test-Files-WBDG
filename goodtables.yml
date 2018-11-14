@@ -2,12 +2,12 @@ files:
   - source: 2013-03-28-Clinic-Handover-v13.xlsx
     sheet: 7
     sheet: 8
-    schema: COBie-schema-Component-1.json
+    schema: schema-COBie-Component-1.json
 
   - source: 2013-03-28-Clinic-Handover-v13-test-dups.xlsx
     sheet: 7
     sheet: 8
-    schema: COBie-schema-Component-1.json
+    schema: schema-COBie-Component-1.json
 
 settings:
     row_limit: 7000
