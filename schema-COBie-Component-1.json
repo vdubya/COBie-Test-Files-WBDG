@@ -2,7 +2,7 @@
   "fields":[
     {
       "name":"Name",
-      "type":"string",
+      "type":"any",
       "constraints":{
         "required":true,
         "unique":true
@@ -18,64 +18,64 @@
     },
     {
       "name":"CreatedOn",
-      "type":"string",
+      "type":"any",
       "constraints":{
         "required":true
       }
     },
     {
       "name":"TypeName",
-      "type":"string",
+      "type":"any",
       "constraints":{
         "required":true
       }
     },
     {
       "name":"Space",
-      "type":"string",
+      "type":"any",
       "constraints":{
         "required":true
       }
     },
     {
       "name":"Description",
-      "type":"string"
+      "type":"any"
     },
     {
       "name":"ExtSystem",
-      "type":"string"
+      "type":"any"
     },
     {
       "name":"ExtObject",
-      "type":"string"
+      "type":"any"
     },
     {
       "name":"ExtIdentifier",
-      "type":"string"
+      "type":"any"
     },
     {
       "name":"SerialNumber",
-      "type":"string"
+      "type":"any"
     },
     {
       "name":"InstallationDate",
-      "type":"string"
+      "type":"any"
     },
     {
       "name":"WarrantyStartDate",
-      "type":"string"
+      "type":"any"
     },
     {
       "name":"TagNumber",
-      "type":"string"
+      "type":"any"
     },
     {
       "name":"BarCode",
-      "type":"string"
+      "type":"any"
     },
     {
       "name":"AssetIdentifier",
-      "type":"string"
+      "type":"any"
     }
   ]
 }
