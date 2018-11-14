@@ -1,74 +1,69 @@
-//     "type": "datetime",
-//     "format": "any"
-
 {
-  "fields": [
-     {
-       "name": "Name",
-       "Title": "NAME",
-       "type": "string",
-       "constraints": {
-          "unique": true
-       }       
-     },
-     {
-       "name": "CreatedBy",
-       "type": "string",
-       "format": "email"
-     },
-     {
-       "name": "CreatedOn",
-       "type": "string"
-     },
-     {
-       "name": "TypeName",
-       "type": "string"
-     },
-     {
-       "name": "Space",
-       "type": "string"
-     },
-     {
-       "name": "Description",
-       "type": "string"
-     },
-     {
-       "name": "ExtSystem",
-       "type": "string"
-     },
-      {
-       "name": "ExtObject",
-       "type": "string"
-     },     
-      {
-       "name": "ExtIdentifier",
-       "type": "string"
-     },     
-      {
-       "name": "SerialNumber",
-       "type": "string"
-     },     
-      {
-       "name": "InstallationDate",
-       "type":"string"
-     },     
-      {
-       "name": "WarrantyStartDate",
-       "type":"string"
-     },     
-      {
-       "name": "TagNumber",
-       "type": "string"
-     },     
-      {
-       "name": "BarCode",
-       "type": "string"
-     },     
-      {
-       "name": "AssetIdentifier",
-       "type": "string"
-     },
-    "missingValues": [ "n/a" ]
-  ],
-  "primaryKey": "Name"
+  "fields":[
+    {
+      "name":"Name",
+      "Title":"NAME",
+      "type":"string",
+      "constraints":{
+        "unique":true
+      }
+    },
+    {
+      "name":"CreatedBy",
+      "type":"string",
+      "format":"email"
+    },
+    {
+      "name":"CreatedOn",
+      "type":"string"
+    },
+    {
+      "name":"TypeName",
+      "type":"string"
+    },
+    {
+      "name":"Space",
+      "type":"string"
+    },
+    {
+      "name":"Description",
+      "type":"string"
+    },
+    {
+      "name":"ExtSystem",
+      "type":"string"
+    },
+    {
+      "name":"ExtObject",
+      "type":"string"
+    },
+    {
+      "name":"ExtIdentifier",
+      "type":"string"
+    },
+    {
+      "name":"SerialNumber",
+      "type":"string"
+    },
+    {
+      "name":"InstallationDate",
+      "type":"string"
+    },
+    {
+      "name":"WarrantyStartDate",
+      "type":"string"
+    },
+    {
+      "name":"TagNumber",
+      "type":"string"
+    },
+    {
+      "name":"BarCode",
+      "type":"string"
+    },
+    {
+      "name":"AssetIdentifier",
+      "type":"string"
+    }
+  ]
 }
