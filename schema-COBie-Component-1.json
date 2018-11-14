@@ -6,7 +6,9 @@
      {
        "name": "Name",
        "type": "string",
-       "constraints": {"unique": "true"}
+       "constraints": {
+         "unique": True
+       }
      },
      {
        "name": "CreatedBy",
