@@ -43,11 +43,11 @@
      },     
       {
        "name": "InstallationDate",
-       "type": "date"
+       "type": "datetime"
      },     
       {
        "name": "WarrantyStartDate",
-       "type": "date"
+       "type": "datetime"
      },     
       {
        "name": "TagNumber",
