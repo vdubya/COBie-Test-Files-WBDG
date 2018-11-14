@@ -7,7 +7,7 @@
        "name": "Name",
        "type": "string",
        "constraints": {
-         "unique": True
+         "unique": true
        }
      },
      {
