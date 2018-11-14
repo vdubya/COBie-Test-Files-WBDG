@@ -1,5 +1,6 @@
 files:
   - source: 2013-03-28-Clinic-Handover-v13.xlsx
-    sheet: Component
+    sheet: 8
 
- 
+ settings:
+   row_limit: 7000
