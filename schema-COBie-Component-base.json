@@ -104,6 +104,5 @@
         "required":true
       }
     }
-  ],
-  "missingValues":["","n/a","N/A","-"]
+  ]
 }
