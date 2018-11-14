@@ -12,9 +12,9 @@
      },
      {
        "name": "CreatedOn",
-//     "type": "datetime",
-//     "format": "any"
-       "type":"string"
+#     "type": "datetime",
+#     "format": "any"
+       "type": "string"
      },
      {
        "name": "TypeName",
