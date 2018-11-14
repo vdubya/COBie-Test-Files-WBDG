@@ -1,10 +1,8 @@
 {
   "fields": [
      {
-       "name": "Name",
-       "type": "string",
-       "constraints": {
-        }
+       "name": "Name1",
+       "type": "string"
      },
      {
        "name": "CreatedBy",
