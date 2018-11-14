@@ -2,7 +2,8 @@
   "fields": [
      {
        "name": "Name",
-       "type": "string"
+       "type": "string",
+       "constraints":{"unique":"true"}
      },
      {
        "name": "CreatedBy",
@@ -11,8 +12,9 @@
      },
      {
        "name": "CreatedOn",
-       "type": "datetime",
-       "format": "any"
+//     "type": "datetime",
+//     "format": "any"
+       "type":"string"
      },
      {
        "name": "TypeName",
@@ -44,13 +46,15 @@
      },     
       {
        "name": "InstallationDate",
-       "type": "datetime",
-       "format": "any"
+//     "type": "datetime",
+//     "format": "any"
+       "type":"string"
      },     
       {
        "name": "WarrantyStartDate",
-       "type": "datetime",
-       "format": "any"
+//     "type": "datetime",
+//     "format": "any"
+       "type":"string"
      },     
       {
        "name": "TagNumber",
