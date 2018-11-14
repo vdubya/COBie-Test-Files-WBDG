@@ -1,9 +1,8 @@
 // https://frictionlessdata.io/specs/table-schema/
 
 {
-  "profile": "tabular-data-package",
-  "name": "my-dataset",
-  // here we list the data files in this dataset
+//"profile": "tabular-data-package",
+  "name": "COBie-test-data-package",
   "resources": [
     {
       "path": "2013-03-28-Clinic-Handover-v13.xlsx",
