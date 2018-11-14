@@ -2,28 +2,40 @@
   "fields":[
     {
       "name":"Name",
-      "Title":"NAME",
       "type":"string",
       "constraints":{
+        "required":true,
         "unique":true
       }
     },
     {
       "name":"CreatedBy",
       "type":"string",
-      "format":"email"
+      "format":"email",
+      "constraints":{
+        "required":true,
+      }
     },
     {
       "name":"CreatedOn",
-      "type":"string"
+      "type":"string",
+      "constraints":{
+        "required":true,
+      }
     },
     {
       "name":"TypeName",
-      "type":"string"
+      "type":"string",
+      "constraints":{
+        "required":true,
+      }
     },
     {
       "name":"Space",
-      "type":"string"
+      "type":"string",
+      "constraints":{
+        "required":true,
+      }
     },
     {
       "name":"Description",
