@@ -3,6 +3,10 @@
      {
        "name": "Name",
        "type": "string"
+       "constraints": {
+            "unique": "true"
+            "maxLength": "3"
+        }
      },
      {
        "name": "CreatedBy",
