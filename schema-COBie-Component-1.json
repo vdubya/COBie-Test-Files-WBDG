@@ -61,6 +61,5 @@
        "name": "AssetIdentifier",
        "type": "string"
      } 
-  ],
-  "primaryKey": "Name"
+  ]
 }
