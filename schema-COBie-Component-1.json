@@ -43,39 +43,67 @@
     },
     {
       "name":"ExtSystem",
-      "type":"any"
+      "type":"any",
+      "constraints":{
+        "required":true
+      }
     },
     {
       "name":"ExtObject",
-      "type":"any"
+      "type":"any",
+      "constraints":{
+        "required":true
+      }
     },
     {
       "name":"ExtIdentifier",
-      "type":"any"
+      "type":"any",
+      "constraints":{
+        "required":true
+      }
     },
     {
       "name":"SerialNumber",
-      "type":"any"
+      "type":"any",
+      "constraints":{
+        "required":true
+      }
     },
     {
       "name":"InstallationDate",
-      "type":"any"
+      "type":"any",
+      "constraints":{
+        "required":true
+      }
     },
     {
       "name":"WarrantyStartDate",
-      "type":"any"
+      "type":"any",
+      "constraints":{
+        "required":true
+      }
     },
     {
       "name":"TagNumber",
-      "type":"any"
+      "type":"any",
+      "constraints":{
+        "required":true
+      }
     },
     {
       "name":"BarCode",
-      "type":"any"
+      "type":"any",
+      "constraints":{
+        "required":true
+      }
     },
     {
       "name":"AssetIdentifier",
-      "type":"any"
+      "type":"any",
+      "constraints":{
+        "required":true
+      }
     }
-  ]
+  ],
+  "missingValues":["","n/a","N/A"]
 }
