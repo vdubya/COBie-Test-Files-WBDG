@@ -6,7 +6,7 @@
           },
           {
             "name": "CreatedBy",
-            "type": "string"
+            "type": "string",
             "format": "email"
           },
           {
