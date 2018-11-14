@@ -7,7 +7,7 @@ files:
     sheet: 8
     schema: schema-COBie-Component-base.json
 
-- source: 2013-03-28-Clinic-Handover-v13-test-dups.xlsx
+  - source: 2013-03-28-Clinic-Handover-v13-test-dups.xlsx
     sheet: 7
     sheet: 8
     schema: schema-COBie-Component-base.json
