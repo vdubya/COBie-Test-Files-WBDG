@@ -11,7 +11,8 @@
      },
      {
        "name": "CreatedOn",
-       "type": "datetime"
+       "type": "datetime",
+       "format": "any"
      },
      {
        "name": "TypeName",
@@ -43,11 +44,13 @@
      },     
       {
        "name": "InstallationDate",
-       "type": "datetime"
+       "type": "datetime",
+       "format": "any"
      },     
       {
        "name": "WarrantyStartDate",
-       "type": "datetime"
+       "type": "datetime",
+       "format": "any"
      },     
       {
        "name": "TagNumber",
