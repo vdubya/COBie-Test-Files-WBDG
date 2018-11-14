@@ -5,10 +5,11 @@
   "fields": [
      {
        "name": "Name",
+       "Title": "NAME",
        "type": "string",
        "constraints": {
-         "unique": true
-       }
+          "unique": true
+       }       
      },
      {
        "name": "CreatedBy",
@@ -66,6 +67,8 @@
       {
        "name": "AssetIdentifier",
        "type": "string"
-     } 
-  ]
+     },
+    "missingValues": [ "n/a" ]
+  ],
+  "primaryKey": "Name"
 }
