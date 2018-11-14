@@ -13,28 +13,28 @@
       "type":"string",
       "format":"email",
       "constraints":{
-        "required":true,
+        "required":true
       }
     },
     {
       "name":"CreatedOn",
       "type":"string",
       "constraints":{
-        "required":true,
+        "required":true
       }
     },
     {
       "name":"TypeName",
       "type":"string",
       "constraints":{
-        "required":true,
+        "required":true
       }
     },
     {
       "name":"Space",
       "type":"string",
       "constraints":{
-        "required":true,
+        "required":true
       }
     },
     {
