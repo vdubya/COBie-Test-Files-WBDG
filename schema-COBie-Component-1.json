@@ -2,7 +2,7 @@
   "fields": [
      {
        "name": "Name",
-       "type": "string"
+       "type": "string",
        "constraints": {
             "unique": "true"
             "maxLength": "3"
