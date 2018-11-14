@@ -1,66 +1,66 @@
-     "schema": {
-        "fields": [
-          {
-            "name": "Name",
-            "type": "string"
-          },
-          {
-            "name": "CreatedBy",
-            "type": "string",
-            "format": "email"
-          },
-          {
-            "name": "CreatedOn",
-            "type": "date"
-          },
-          {
-            "name": "TypeName",
-            "type": "string"
-          },
-          {
-            "name": "Space",
-            "type": "string"
-          },
-          {
-            "name": "Description",
-            "type": "string"
-          },
-          {
-            "name": "ExtSystem",
-            "type": "string"
-          },
-           {
-            "name": "ExtObject",
-            "type": "string"
-          },     
-           {
-            "name": "ExtIdentifier",
-            "type": "string"
-          },     
-           {
-            "name": "SerialNumber",
-            "type": "string"
-          },     
-           {
-            "name": "InstallationDate",
-            "type": "date"
-          },     
-           {
-            "name": "WarrantyStartDate",
-            "type": "date"
-          },     
-           {
-            "name": "TagNumber",
-            "type": "string"
-          },     
-           {
-            "name": "BarCode",
-            "type": "string"
-          },     
-           {
-            "name": "AssetIdentifier",
-            "type": "string"
-          } 
-        ],
-        "primaryKey": "Name"
-      }
+{
+  "fields": [
+     {
+       "name": "Name",
+       "type": "string"
+     },
+     {
+       "name": "CreatedBy",
+       "type": "string",
+       "format": "email"
+     },
+     {
+       "name": "CreatedOn",
+       "type": "date"
+     },
+     {
+       "name": "TypeName",
+       "type": "string"
+     },
+     {
+       "name": "Space",
+       "type": "string"
+     },
+     {
+       "name": "Description",
+       "type": "string"
+     },
+     {
+       "name": "ExtSystem",
+       "type": "string"
+     },
+      {
+       "name": "ExtObject",
+       "type": "string"
+     },     
+      {
+       "name": "ExtIdentifier",
+       "type": "string"
+     },     
+      {
+       "name": "SerialNumber",
+       "type": "string"
+     },     
+      {
+       "name": "InstallationDate",
+       "type": "date"
+     },     
+      {
+       "name": "WarrantyStartDate",
+       "type": "date"
+     },     
+      {
+       "name": "TagNumber",
+       "type": "string"
+     },     
+      {
+       "name": "BarCode",
+       "type": "string"
+     },     
+      {
+       "name": "AssetIdentifier",
+       "type": "string"
+     } 
+  ],
+  "primaryKey": "Name"
+}
