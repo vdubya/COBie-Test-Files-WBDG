@@ -4,8 +4,8 @@
        "name": "Name",
        "type": "string",
        "constraints": {
-            "unique": "true",
-            "maxLength": "3"
+            "unique": true,
+            "maxLength": 3
         }
      },
      {
