@@ -1,7 +1,7 @@
 files:
   - source: 2013-03-28-Clinic-Handover-v13.xlsx
     sheet: 7
-    schema: schema-COBie-Component-base.json
+    schema: schema-COBie-Type-base.json
 
   - source: 2013-03-28-Clinic-Handover-v13.xlsx
     sheet: 8
@@ -9,8 +9,11 @@ files:
 
   - source: 2013-03-28-Clinic-Handover-v13-test-dups.xlsx
     sheet: 7
+    schema: schema-COBie-Type-base.json
+
+  - source: 2013-03-28-Clinic-Handover-v13-test-dups.xlsx
     sheet: 8
     schema: schema-COBie-Component-base.json
 
 settings:
-    row_limit: 7000
+    row_limit: 10000
