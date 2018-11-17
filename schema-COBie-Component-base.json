@@ -1,4 +1,11 @@
 {
+  "comments":[
+    { "c1":"JSON does not permit comments, so this is the means of documenting. ",
+      "c2":"This definition checks for unique and required values but not n/a which is reserved us a separate check due to the large number of errors.",
+      "c3":"PrimaryKey is supposed to validate unique constraint but is not currently working from my tests.",
+      "c4":"type=any was used instead of string due to string failing on string of numbers interpreting that as number for things like serialnumber."
+    }
+  ],
   "fields":[
     {
       "name":"Name",
