@@ -4,7 +4,7 @@
       "name":"Name",
       "type":"any",
       "constraints":{
-        "required":true,
+        "required":true
       }
     },
     {
