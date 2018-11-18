@@ -1,4 +1,12 @@
-{PLACEHOLDER
+{
+
+Value
+Unit
+ExtSystem
+ExtObject
+ExtIdentifier
+Description
+AllowedValues
   "fields":[
     {
       "name":"Name",
@@ -28,15 +36,15 @@
       "type":"any"
     },
     {
-      "name":"Description",
+      "name":"SheetName",
       "type":"any"
     },
     {
-      "name":"AssetType",
+      "name":"RowName",
       "type":"any"
     },
     {
-      "name":"Manufacturer",
+      "name":"",
       "type":"any"
     },
     {
