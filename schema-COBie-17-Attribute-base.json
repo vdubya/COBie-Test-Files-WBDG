@@ -1,12 +1,4 @@
 {
-
-Value
-Unit
-ExtSystem
-ExtObject
-ExtIdentifier
-Description
-AllowedValues
   "fields":[
     {
       "name":"Name",
@@ -44,31 +36,11 @@ AllowedValues
       "type":"any"
     },
     {
-      "name":"",
+      "name":"Value",
       "type":"any"
     },
     {
-      "name":"ModelNumber",
-      "type":"any"
-    },
-    {
-      "name":"WarrantyGuarantorParts",
-      "type":"any"
-    },
-    {
-      "name":"WarrantyDurationParts",
-      "type":"any"
-    },
-    {
-      "name":"WarrantyGuarantorLabor",
-      "type":"any"
-    },
-    {
-      "name":"WarrantyDurationLabor",
-      "type":"any"
-    },
-    {
-      "name":"WarrantyDurationUnit",
+      "name":"Unit",
       "type":"any"
     },
     {
@@ -84,79 +56,11 @@ AllowedValues
       "type":"any"
     },
     {
-      "name":"ReplacementCost",
+      "name":"Description",
       "type":"any"
     },
     {
-      "name":"ExpectedLife",
-      "type":"any"
-    },
-    {
-      "name":"DurationUnit",
-      "type":"any"
-    },
-    {
-      "name":"WarrantyDescription",
-      "type":"any"
-    },
-    {
-      "name":"NominalLength",
-      "type":"any"
-    },
-    {
-      "name":"NominalWidth",
-      "type":"any"
-    },
-    {
-      "name":"NominalHeight",
-      "type":"any"
-    },
-    {
-      "name":"ModelReference",
-      "type":"any"
-    },
-    {
-      "name":"Shape",
-      "type":"any"
-    },
-    {
-      "name":"Size",
-      "type":"any"
-    },
-    {
-      "name":"Color",
-      "type":"any"
-    },
-    {
-      "name":"Finish",
-      "type":"any"
-    },
-    {
-      "name":"Grade",
-      "type":"any"
-    },
-    {
-      "name":"Material",
-      "type":"any"
-    },
-    {
-      "name":"Constituents",
-      "type":"any"
-    },
-    {
-      "name":"Features",
-      "type":"any"
-    },
-    {
-      "name":"AccessibilityPerformance",
-      "type":"any"
-    },
-    {
-      "name":"CodePerformance",
-      "type":"any"
-    },
-    {
-      "name":"SustainabilityPerformance",
+      "name":"AllowedValues",
       "type":"any"
     }
   ]
