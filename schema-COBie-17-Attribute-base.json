@@ -5,7 +5,6 @@
       "type":"any",
       "constraints":{
         "required":true,
-        "unique":true
       }
     },
     {
@@ -63,5 +62,6 @@
       "name":"AllowedValues",
       "type":"any"
     }
-  ]
+  ],
+  "primaryKey": ["Name", "SheetName", "RowName"]
 }
