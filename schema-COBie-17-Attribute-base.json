@@ -33,6 +33,7 @@
         "enum":["Contact","Facility","Floor","Space","Zone","Type","Component","System","Assembly","Connection",
                  "Spare","Resource","Job","Impact","Document","Coordinate","Issue"],
       "comment":"No Attribute on an Attribute."
+      }
     },
     {
       "name":"RowName",
