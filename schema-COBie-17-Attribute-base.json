@@ -29,8 +29,7 @@
             "name": "SheetName",
             "type": "any",
             "constraints": {
-                "required": true,
-                "enum": ["Facility", "Floor", "Space", "Type", "Component"]
+                "required": true
             }
         },
         {
