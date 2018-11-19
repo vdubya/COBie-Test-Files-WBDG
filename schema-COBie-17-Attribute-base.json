@@ -1,71 +1,69 @@
 {
-  "fields":[
-    {
-      "name":"Name",
-      "type":"any",
-      "constraints":{
-        "required":true
-      }
-    },
-    {
-      "name":"CreatedBy",
-      "type":"string",
-      "format":"email",
-      "constraints":{
-        "required":true
-      }
-    },
-    {
-      "name":"CreatedOn",
-      "type":"any",
-      "constraints":{
-        "required":true
-      }
-    },
-    {
-      "name":"Category",
-      "type":"any"
-    },
-    {
-      "name":"SheetName",
-      "type":"string",
-      "constraints":{
-        "enum":["Contact","Facility","Floor","Space","Zone","Type","Component","System","Assembly","Connection",
-                 "Spare","Resource","Job","Impact","Document","Coordinate","Issue"]
-      }
-    },
-    {
-      "name":"RowName",
-      "type":"any"
-    },
-    {
-      "name":"Value",
-      "type":"any"
-    },
-    {
-      "name":"Unit",
-      "type":"any"
-    },
-    {
-      "name":"ExtSystem",
-      "type":"any"
-    },
-    {
-      "name":"ExtObject",
-      "type":"any"
-    },
-    {
-      "name":"ExtIdentifier",
-      "type":"any"
-    },
-    {
-      "name":"Description",
-      "type":"any"
-    },
-    {
-      "name":"AllowedValues",
-      "type":"any"
-    }
-  ],
-  "primaryKey": ["Name", "SheetName", "RowName"]
+	"fields": [{
+			"name": "Name",
+			"type": "any",
+			"constraints": {
+				"required": true
+			}
+		},
+		{
+			"name": "CreatedBy",
+			"type": "string",
+			"format": "email",
+			"constraints": {
+				"required": true
+			}
+		},
+		{
+			"name": "CreatedOn",
+			"type": "any",
+			"constraints": {
+				"required": true
+			}
+		},
+		{
+			"name": "Category",
+			"type": "any"
+		},
+		{
+			"name": "SheetName",
+			"type": "any",
+			"constraints": {
+				"enum": ["Contact", "Facility", "Floor", "Space", "Zone", "Type", "Component", "System", "Assembly", "Connection", "Spare", "Resource", "Job", "Impact", "Document", "Coordinate", "Issue"]
+			}
+		},
+		{
+			"name": "RowName",
+			"type": "any"
+		},
+		{
+			"name": "Value",
+			"type": "any"
+		},
+		{
+			"name": "Unit",
+			"type": "any"
+		},
+		{
+			"name": "ExtSystem",
+			"type": "any"
+		},
+		{
+			"name": "ExtObject",
+			"type": "any"
+		},
+		{
+			"name": "ExtIdentifier",
+			"type": "any"
+		},
+		{
+			"name": "Description",
+			"type": "any"
+		},
+		{
+			"name": "AllowedValues",
+			"type": "any"
+		}
+	],
+	"primaryKey": ["Name", "SheetName", "RowName"]
 }
