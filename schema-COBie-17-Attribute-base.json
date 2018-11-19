@@ -29,24 +29,8 @@
 			"name": "SheetName",
 			"type": "any",
 			"constraints": {
-				"enum": ["Contact", "Facility",
-					"Floor",
-					"Space",
-					"Zone",
-					"Type",
-					"Component",
-					"System",
-					"Assembly",
-					"Connection",
-					"Spare",
-					"Resource",
-					"Job",
-					"Impact",
-					"Document",
-					"Coordinate",
-					"Issue"
-				],
-				"required": true
+				"required": true, 
+				"enum": [ "Facility", "Floor", "Space", "Type", "Component"	]
 			}
 		},
 		{
