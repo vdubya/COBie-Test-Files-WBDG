@@ -1,31 +1,31 @@
 files:
-  - source: 2013-03-28-Clinic-Handover-v13.xlsx
-    sheet: 7
-    schema: schema-COBie-07-Type-base.json
+  # - source: 2013-03-28-Clinic-Handover-v13.xlsx
+  #   sheet: 7
+  #   schema: schema-COBie-07-Type-base.json
 
-  - source: 2013-03-28-Clinic-Handover-v13.xlsx
-    sheet: 8
-    schema: schema-COBie-08-Component-base.json
+  # - source: 2013-03-28-Clinic-Handover-v13.xlsx
+  #   sheet: 8
+  #   schema: schema-COBie-08-Component-base.json
 
   - source: 2013-03-28-Clinic-Handover-v13.xlsx
     sheet: 17
     schema: schema-COBie-17-Attribute-base.json
 
-  - source: 2013-03-28-Clinic-Handover-v13-testfile.xlsx
-    sheet: 7
-    schema: schema-COBie-07-Type-base.json
+  # - source: 2013-03-28-Clinic-Handover-v13-testfile.xlsx
+  #   sheet: 7
+  #   schema: schema-COBie-07-Type-base.json
 
-  - source: 2013-03-28-Clinic-Handover-v13-testfile.xlsx
-    sheet: 8
-    schema: schema-COBie-08-Component-base.json
+  # - source: 2013-03-28-Clinic-Handover-v13-testfile.xlsx
+  #   sheet: 8
+  #   schema: schema-COBie-08-Component-base.json
 
-  - source: 2013-03-28-Clinic-Handover-v13-testfile.xlsx
-    sheet: 8
-    schema: schema-COBie-08-Component-RequiredValues.json
+  # - source: 2013-03-28-Clinic-Handover-v13-testfile.xlsx
+  #   sheet: 8
+  #   schema: schema-COBie-08-Component-RequiredValues.json
 
-  - source: 2013-03-28-Clinic-Handover-v13-testfile.xlsx
-    sheet: 17
-    schema: schema-COBie-17-Attribute-base.json
+  # - source: 2013-03-28-Clinic-Handover-v13-testfile.xlsx
+  #   sheet: 17
+  #   schema: schema-COBie-17-Attribute-base.json
 
 settings:
     row_limit: 10000
