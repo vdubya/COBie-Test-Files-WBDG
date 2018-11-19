@@ -28,7 +28,11 @@
     },
     {
       "name":"SheetName",
-      "type":"string"
+      "type":"string",
+      "constraints":{
+        "enum":["Contact","Facility","Floor","Space","Zone","Type","Component","System","Assembly","Connection",
+                 "Spare","Resource","Job","Impact","Document","Coordinate","Issue"]
+      }
     },
     {
       "name":"RowName",
