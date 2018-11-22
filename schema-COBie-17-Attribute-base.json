@@ -30,7 +30,7 @@
             "type": "any",
             "constraints": {
                 "required": true,
-                "enum":["Facility", "Floor", "Space", "Type", "Component"]
+                "enum": ["Facility", "Floor", "Space", "Type", "Component"]
             }
         },
         {
