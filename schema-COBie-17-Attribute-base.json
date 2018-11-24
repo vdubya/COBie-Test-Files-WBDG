@@ -27,7 +27,9 @@
         },
         {
             "name": "SheetName",
-            "type": "any",
+            "title": "Sheet Name",
+            "type": "string",
+            "description": "The COBie Sheet Name.",
             "constraints": {
                 "required": true,
                 "enum": ["Facility", "Floor", "Space", "Type", "Component"]
